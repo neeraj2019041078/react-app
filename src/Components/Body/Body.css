@@ -1,0 +1,85 @@
+.parent {
+    background-color: #78C04F;
+    height: 70vh;
+    display: flex;
+    align-items: center; 
+}
+
+.child {
+    color: #fff;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    flex: 1; 
+    
+}
+
+.custom-h1 {
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.child2{
+    position: relative;
+    left: -4%;
+}
+.section{
+    height: 100px;
+}
+.parent1{
+    height: 100vh;
+}
+.child1 {
+   position: relative;
+    top: 60%; 
+    transform: translateY(-50%); 
+    left: 0%;
+    margin-left: 33px;
+}
+
+.child1 h1:first-child {
+    font-size: 38px; 
+    font-weight: 500;
+    color: #333; 
+    margin-bottom: 0; 
+}
+
+.child1 h1 span {
+    font-size: 80px;
+    color: #78C04F;
+}
+
+.child1 h1:nth-child(2) {
+    font-size: 38px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 0;
+}
+
+.button1 {
+    position: relative;
+    transform: translateY(-50%);
+    text-align: right;
+    margin-top: 70px;
+    margin-right: 79%; 
+}
+
+.button1 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 60px;
+    font-size: 18px;
+   cursor: pointer;
+   z-index: 3;
+}
+
+.button1 button:hover {
+    background-color: #333;
+}

@@ -1,0 +1,39 @@
+.big {
+    height: 50vh;
+    position: relative;
+  }
+  
+  .card {
+    left: 35%;
+    position: absolute;
+    top:-122%;
+    right: 0;}
+  
+  .cards-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+  }
+  
+  .position {
+    border: 2px solid #78C04F;
+    border-radius: 10px;
+    padding: 18px;
+    transition: transform 0.3s ease;
+    width: 250px; /* Set fixed width */
+    height: 300px; /* Set fixed height */
+    margin-left: 10px;
+    overflow: hidden;
+  }
+  
+  .position:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hello4 {
+    left: 35%;
+    position: absolute;
+    top: -7%;
+  }
+  
